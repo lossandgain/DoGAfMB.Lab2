@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageLeftTop"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:padding="5dp"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imageRightTop"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginStart="479px"
+            android:padding="5dp"
+            android:src="@drawable/logo" />
+
+    </LinearLayout>
+
+    <Button
+        android:id ="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:layout_gravity="center"
+        android:text="Button 1" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30px"
+        android:textColor="@color/teal_700"
+        android:textAlignment="center"
+        android:textSize="25pt"
+        android:text="Hello!" />
+
+    <ImageButton
+        android:id="@+id/polytechlogotxt"
+        android:layout_width="1000px"
+        android:layout_height="300px"
+        android:layout_marginTop="30px"
+        android:layout_gravity="center"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:background="@drawable/polytechlogomainrgb" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_gravity="top"
+            android:id="@+id/radiobutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30px"
+            android:text="RadioButton 1"/>
+
+        <RadioButton
+            android:layout_gravity="center"
+            android:id="@+id/radiobutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30px"
+            android:text="RadioButton 2"/>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="30px"
+            android:text="Switch 1" />
+
+    </LinearLayout>
+
+</LinearLayout>
